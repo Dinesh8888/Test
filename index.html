@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SAP-C02</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>AWS SAP-C02</h1>
+      <div class="score-box">
+        <label class="toggle">
+          <input type="checkbox" id="random-toggle"> Random
+        </label>
+        <span id="score-display">Score: 0 / 0</span>
+      </div>
+    </div>
+
+    <div id="quiz-container">
+      <div id="question-area"></div>
+
+      <div class="controls">
+        <button id="prev-btn">⬅ Previous</button>
+        <button id="submit-btn">Submit</button>
+        <button id="next-btn" style="display:none;">Next ➡</button>
+      </div>
+
+      <div class="jump-controls">
+        <label>Jump to question:</label>
+        <input type="number" id="jump-input" min="1" placeholder="Enter question no">
+        <button id="jump-btn">Go</button>
+      </div>
+
+      <div id="result"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
