@@ -823,8 +823,8 @@ async function loadQuestions() {
       }
     ],
     "option_count": 5,
-    "correct_answer": "C",
-    "is_multi_answer": false,
+    "correct_answer": "CD",
+    "is_multi_answer": true,
     "choose_count": null,
     "topic": "",
     "category": "design-solutions",
